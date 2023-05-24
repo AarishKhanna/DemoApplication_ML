@@ -1,0 +1,6 @@
+framework module Pods_DemoApplication_ML_DemoApplication_MLUITests {
+  umbrella header "Pods-DemoApplication_ML-DemoApplication_MLUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

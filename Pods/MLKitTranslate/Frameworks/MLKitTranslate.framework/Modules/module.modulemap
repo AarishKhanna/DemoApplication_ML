@@ -1,0 +1,16 @@
+framework module MLKitTranslate {
+  umbrella header "MLKitTranslate.h"
+  export *
+  module * { export * }
+  link "c++"
+  link "dl"
+  link "m"
+  link "z"
+  link framework "CoreFoundation"
+  link framework "CoreTelephony"
+  link framework "Foundation"
+  link framework "QuartzCore"
+  link framework "Security"
+  link framework "SystemConfiguration"
+  link framework "UIKit"
+}
